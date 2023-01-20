@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String hello() {
-        return "{cadena: sp}";
+        return "Hola team apis es un placer trabajar con ustedes";
     }
 }
